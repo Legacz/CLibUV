@@ -1,0 +1,11 @@
+// tuxOS: sudo apt-get install libuv-dev
+// macOS: brew install libuv
+
+module CLibUV [system] {
+#if os(Linux)
+  header "/usr/include/uv.h"
+#else
+  header "/usr/local/include/uv.h"
+#endif
+}
+
