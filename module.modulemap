@@ -2,6 +2,6 @@
 // macOS: brew install libuv
 
 module CLibUV [system] {
-  header "/usr/local/include/uv.h"
+  header "/usr/include/uv.h"
 }
 
