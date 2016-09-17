@@ -3,5 +3,6 @@
 
 module CLibUV [system] {
   header "/usr/include/uv.h"
+  link "uv"
 }
 
